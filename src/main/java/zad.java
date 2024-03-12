@@ -1,5 +1,13 @@
-public class HelloWorld {
+public class SumaLiczb {
     public static void main(String[] args) {
-        System.out.println("Witaj, Świecie!");
+        int suma = 0;
+
+        // Pętla dodająca liczby od 1 do 10 do sumy
+        for (int i = 1; i <= 10; i++) {
+            suma += i;
+        }
+
+        // Wyświetlenie wyniku
+        System.out.println("Suma liczb od 1 do 10 wynosi: " + suma);
     }
 }
